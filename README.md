@@ -23,6 +23,9 @@ use vntokenizer to tokenize VNese news
       + ./sbin/start-all.sh
       + http://localhost:8080/
     * SSH error: run "sudo iptables -A INPUT -p tcp --dport ssh -j ACCEPT"
+  - Install numpy:
+    + install pip: sudo apt-get install python-pip (sudo pip install --upgrade pip)
+    + install numpy: sudo pip install numpy
     
 ## Installation (on Windows)
 (Ref: http://nishutayaltech.blogspot.com/2015/04/how-to-run-apache-spark-on-windows7-in.html, http://www.ics.uci.edu/~shantas/Install_Spark_on_Windows10.pdf)
